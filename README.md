@@ -25,6 +25,8 @@ Created the [base code for the Detour system](https://pastebin.com/zXAUKBg2) tha
 **triggered**
 Initial help with un-fucking the script after I had coded myself into a hole with no way out.
 
+
+
 *FUCKS TO:*
 
 **garry newman**
