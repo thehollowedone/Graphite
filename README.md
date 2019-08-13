@@ -14,15 +14,19 @@ I originally posted this in Pastebin in March 2019, but I figured I could make i
 *SHOUTOUTS:*
 
 **Anubis**
+
 Gave the initial inspiration for this project after I saw his [project](https://github.com/ProjectOdium/OdiumLua/blob/master/ironcurtain_release.lua)
 
 **c0deine** 
+
 Created the [base code for the Detour system](https://pastebin.com/zXAUKBg2) that Graphite uses, even though I've 'modified' how the protection functions. 
 
 **AVexxed**
+
  Alerting me to a detour detection method (Which isn't fully patchable in pure Lua as far as I know, this will just stop brainlet anti-cheat developers but won't stop meep <3)
 
 **triggered**
+
 Initial help with un-fucking the script after I had coded myself into a hole with no way out.
 
 
