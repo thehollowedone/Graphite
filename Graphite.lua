@@ -2,29 +2,19 @@
 Graphite
 Prevent retarded lua or administrators from doing wack shit.
 by: hollow
-shouts to: 
-triggered - initial help with the script
-avexxed - being a cool fucking dude, giving me cool fixes
-wolfie - being an absolute sick cunt, give this man a beer on my tab.
-dogecore - exploits being quacking crazy, chill as fuck
-capn - being a fellow hack demon
- 
-fucks to:
-garry newman - you know what you did, fuck you.
-roberto ierusalimschy - i will kick you in the ribs for making this language so fucking stupid
 */
  
-// what version are we on?
+// what version are we on? (inside joke variable name)
 local swatchberse = "Version 1.9"
  
-// init gang
+// initializes all the variables we need at the start
 local Detours = {}
 local graphite = Color(200,200,200,255)
 local green = Color(0,230,0,255)
 local red = Color(220,0,0,255)
 
  
-// Commands that make you say "why is the server running that on my behalf?"
+// The commands we wanna block from ever making it to our console.
 local AntiRetard = {
         "bind",
 		"bind_mac",
@@ -61,18 +51,18 @@ local AntiRetard = {
 		"record"
 }
  
-// Nothing like some good old standardized prints.
+// Graphite uses this to print all of it's logs to console.
 local function LogString(str, color) 
 	MsgC(graphite, "[Graphite] ", color, str ..'\n')
 end
  
-// Did somebody say detours in Lua?
+// Graphite's Detour System
 local function DetourFunction(originalFunction, newFunction)
     Detours[newFunction] = originalFunction
     return newFunction
 end
  
-// I will personally kick the creator of Lua in the ribs.
+// What started my hatred of Lua was making this entire project.
 RunConsoleCommand = DetourFunction(RunConsoleCommand, function(cmd, ...)
 	local block = false
 	for k,v in next, AntiRetard do
@@ -99,7 +89,7 @@ RunConsoleCommand = DetourFunction(RunConsoleCommand, function(cmd, ...)
 	end
 end)
 
-// AVexxed WUZ here
+// Semi-patch of a detour detection method.
 local old_debug_getinfo = debug.getinfo;
 debug.getinfo = function(function_or_stack_level, fields)
     local data = old_debug_getinfo(function_or_stack_level, fields);
@@ -112,5 +102,5 @@ debug.getinfo = function(function_or_stack_level, fields)
     return data;
 end
  
-// that amazing load message using our standardized function.
+// We loaded, that's crazy.
 LogString(swatchberse.. " has loaded.", graphite)
