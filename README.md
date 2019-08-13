@@ -3,7 +3,7 @@
 
  ***Graphite*** was created as a way to prevent malicious Lua payloads from running funky code on your client.
 
-Most 'game-fuckery' in Garry's Mod is achieved with RunConsoleCommand/ConCommand, which allows Lua to run commands in your Developer console to primarily change settings and attempt to save them. 
+Most 'game-fuckery' in Garry's Mod is achieved with [RunConsoleCommand](https://wiki.garrysmod.com/page/Global/RunConsoleCommand)/[ConCommand](https://wiki.garrysmod.com/page/Player/ConCommand), which allows Lua to run commands in your Developer console to primarily change settings and attempt to save them. 
 
 Garry (*I hopefully assume)* knew this was abusable as fuck but still opted to allow a pretty open ended access to the console **besides these commands listed**  [here](https://wiki.garrysmod.com/page/Blocked_ConCommands). 
 
