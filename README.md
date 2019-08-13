@@ -15,7 +15,7 @@ I originally posted this in Pastebin in March 2019, but I figured I could make i
 
 **Anubis**
 
-Gave the initial inspiration for this project after I saw his [projects, Aegis & Iron Curtain](https://github.com/ProjectOdium/OdiumLua)
+Gave the initial inspiration for this project after I saw his projects, [Aegis & Iron Curtain](https://github.com/ProjectOdium/OdiumLua)
 
 **c0deine** 
 
