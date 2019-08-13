@@ -24,3 +24,10 @@ Created the [base code for the Detour system](https://pastebin.com/zXAUKBg2) tha
 **triggered**
 Initial help with un-fucking the script after I had coded myself into a hole with no way out.
 
+*FUCKS TO:*
+**garry newman**
+Why do you make people pass [booleans as a string and then convert them on the client automatically? ](https://wiki.garrysmod.com/page/Global/RunConsoleCommand)
+
+**roberto ierusalimschy** 
+If the fact that concatenating a variable argument looks like `..(...)` doesn't bother you, I don't know what kind of psychopath you are.
+
