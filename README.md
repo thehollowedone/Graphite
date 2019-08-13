@@ -12,6 +12,7 @@ Graphite was created as a secondary-layer of protection and logging of what serv
 I originally posted this in Pastebin in March 2019, but I figured I could make it more 'accessible' via GitHub and add more comments to what I'm actually doing in my code. I warn you however as this is technically possible to detect if an anti-cheat developer knows how to properly check for Detours.
 
 *SHOUTOUTS:*
+
 **Anubis**
 Gave the initial inspiration for this project after I saw his [project](https://github.com/ProjectOdium/OdiumLua/blob/master/ironcurtain_release.lua)
 
