@@ -2,6 +2,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-resentment.svg)](https://forthebadge.com)
 
  ***Graphite*** was created as a way to prevent malicious Lua payloads from running funky code on your client.
+ This is a legacy version, before I recoded Graphite to be an official Lua script for methamphetamine.solutions
 
 Most 'game-fuckery' in Garry's Mod is achieved with [RunConsoleCommand](https://wiki.garrysmod.com/page/Global/RunConsoleCommand)/[ConCommand](https://wiki.garrysmod.com/page/Player/ConCommand), which allows Lua to run commands in your Developer console to primarily change settings and attempt to save them. 
 
