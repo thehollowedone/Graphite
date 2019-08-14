@@ -35,7 +35,7 @@ Initial help with un-fucking the script after I had coded myself into a hole wit
 
 **garry newman**
 
-Why do you make people pass booleans as a string and then convert them on the client automatically? )
+Why do you make people pass booleans as a string and then convert them on the client automatically?
 
 **roberto ierusalimschy** 
 
