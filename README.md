@@ -4,9 +4,9 @@
  ***Graphite*** was created as a way to prevent malicious Lua payloads from running funky code on your client.
  This was to be a 'legacy' version before I was to re-code an official version using API commands from a software provider who was interested.
 
-Most 'game-fuckery' in Garry's Mod is achieved with [RunConsoleCommand](https://wiki.garrysmod.com/page/Global/RunConsoleCommand)/[ConCommand](https://wiki.garrysmod.com/page/Player/ConCommand), which allows Lua to run commands in your Developer console to primarily change settings and attempt to save them. 
+Most 'game-fuckery' in Garry's Mod is achieved with [RunConsoleCommand](https://wiki.facepunch.com/gmod/Global.RunConsoleCommand)/[ConCommand](https://wiki.facepunch.com/gmod/concommand.Add), which allows Lua to run commands in your Developer console to primarily change settings and attempt to save them. 
 
-Garry (*I hopefully assume)* knew this was abusable as fuck but still opted to allow a pretty open ended access to the console **besides these commands listed**  [here](https://wiki.garrysmod.com/page/Blocked_ConCommands). 
+Garry (*I hopefully assume)* knew this was abusable as fuck but still opted to allow a pretty open ended access to the console **besides these commands listed**  [here](https://wiki.facepunch.com/gmod/Blocked_ConCommands). 
 
 Graphite was created as a secondary-layer of protection and logging of what servers *really* are running on your client. This also does work as a secondary form of protection against any 'bypass' that might make it's way past `FCVAR_SERVER_CAN_EXECUTE`
 
@@ -16,7 +16,7 @@ I originally posted this in Pastebin in March 2019, but I figured I could make i
 
 **Anubis**
 
-Gave the initial inspiration for this project after I saw his projects, [Aegis & Iron Curtain](https://github.com/ProjectOdium/OdiumLua)
+Gave the initial inspiration for this project after I saw his projects, [Aegis & Iron Curtain, (broken link)](https://github.com/ProjectOdium/OdiumLua)
 
 **c0deine** 
 
